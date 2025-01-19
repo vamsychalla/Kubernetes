@@ -1,5 +1,5 @@
 apiVersion: eksctl.io/v1alpha5
-kind: clusterconfig
+kind: clusterconfig1
 
 metadata:
   name: expense
