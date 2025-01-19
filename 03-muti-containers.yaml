@@ -7,7 +7,7 @@ metadata:
 sepc:
   containers:
   - name: nginx
-    image: ngnix
+    image: nginx
   - name: alma
     image: "almalinux:9"
     commited: ["sleep", "sleep"]
