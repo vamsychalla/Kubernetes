@@ -10,4 +10,4 @@ spec:
     image: nginx
   - name: alma
     image: "almalinux:9"
-    commited: ["sleep", "sleep"]
+    command: ["sleep", "sleep"]
