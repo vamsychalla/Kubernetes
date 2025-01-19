@@ -4,7 +4,7 @@ apiVersion: v1
 metadata:
   name: mulri-containers
 
-sepc:
+spec:
   containers:
   - name: nginx
     image: nginx
