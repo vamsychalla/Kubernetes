@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: mulri-containers
+
+sepc:
+  containers:
+  - name: nginx
+    image: ngnix
+  - name: alma
+    image: "almalinux:9"
+    commited: ["sleep", "sleep"]
